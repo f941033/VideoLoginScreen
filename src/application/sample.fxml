@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="450.0" fitWidth="800.0" layoutX="14.0" layoutY="14.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="436.0" layoutY="25.0" prefHeight="400.0" prefWidth="350.0" style="-fx-background-color: #ffffff67; -fx-background-radius: 120;">
+         <effect>
+            <DropShadow color="#575757" />
+         </effect>
+         <children>
+            <Label layoutX="114.0" layoutY="50.0" text="YOUR LOGO" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <JFXTextField id="cajaTexto" focusColor="#415aa600" labelFloat="true" layoutX="72.0" layoutY="114.0" minWidth="182.0" prefHeight="45.0" prefWidth="207.0" promptText="USERNAME" style="-fx-border-color: #FFF; -fx-border-radius: 50px;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="10.0" top="13.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField id="cajaTexto" focusColor="#405aa800" labelFloat="true" layoutX="72.0" layoutY="191.0" minWidth="182.0" prefHeight="45.0" prefWidth="207.0" promptText="PASSWORD" style="-fx-border-color: #FFF; -fx-border-radius: 50px;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="10.0" top="13.0" />
+               </padding>
+            </JFXPasswordField>
+            <JFXButton layoutX="71.0" layoutY="266.0" prefHeight="45.0" prefWidth="207.0" style="-fx-background-color: #ff6666; -fx-background-radius: 50px;" text="SIGNIN" textFill="WHITE" />
+            <JFXButton layoutX="72.0" layoutY="324.0" prefHeight="45.0" prefWidth="207.0" text="FORGOT PASSWORD" textFill="WHITE" underline="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

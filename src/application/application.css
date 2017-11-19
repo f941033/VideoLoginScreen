@@ -1,0 +1,5 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#cajaTexto{
+	-fx-text-fill:#fff;
+	-fx-font-size:14px;
+}
